@@ -97,7 +97,7 @@ stepsByDayImputed <- tapply(activityDataImputed$steps, activityDataImputed$date,
 qplot(stepsByDayImputed, xlab='Total steps per day (Imputed)', ylab='Frequency using binwith 500', binwidth=500)
 ```
 
-![plot of total steps per dau imputed](figure/PA1_template3.png) 
+![plot of total steps per day imputed](figure/PA1_template3.png) 
 
 ##### ... and Calculate and report the mean and median total number of steps taken per day. 
 
